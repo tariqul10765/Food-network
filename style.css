@@ -119,3 +119,19 @@ body{
 .recepie img{
     width: 100%;
 }
+
+/* following section */
+.following-sec{
+    margin: 0px 5%;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 15px 50px;
+    box-shadow: 2px 2px 8px #888888;
+    border-radius: 10px;
+    /* gap: 10%; */
+}
+.following{
+    text-align: center;
+    margin: 0 10%;
+    width: 20%;
+}
