@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* common classes */
+
+/* font size */
+.big-font{
+    font-size: 60px;
+    font-weight: bold;
+}
+.medium-font{
+    font-size: 30px;
+}
+
+/* color */
+.orange-color{
+    color: orange;
+}
+.gray-color{
+    color: gray;
+}
+
+/* others */
+.half-width{
+    width: 50%;
+}
+
+
+
+
+
+/* Header section */
+.header-sec{
+    padding: 0px 10%;
+    display: flex;
+}
+.header-left{
+    margin-top: 100px;
+}
+.header-left p{
+    margin-bottom: 50px;
+}
+.header-left a{
+    color: rgb(243, 237, 237);
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(to right, #D83A56, #FF616D);
+    border-radius: 30px;
+}
