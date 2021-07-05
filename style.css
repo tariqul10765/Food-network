@@ -91,3 +91,31 @@ body{
     background-image: linear-gradient(to right, #D83A56, #FF616D);
     border-radius: 30px;
 }
+
+
+/* Recipie section */
+.recipie-sec{
+    margin-bottom: 100px;
+
+}
+.recipie-title{
+    text-align: center;
+    padding: 0 20%;
+    margin-bottom: 50px;
+}
+.recipie-container{
+    margin: 0px 5%;
+    display: flex;
+    gap: 5%;
+}
+.recepie{
+    box-shadow: 2px 2px 8px #888888;
+    /* border: 2px solid brown; */
+    width: 30%;
+    /* text-align: center; */
+    padding: 20px 20px 50px 20px;
+    border-radius: 15px;
+}
+.recepie img{
+    width: 100%;
+}
