@@ -35,6 +35,33 @@ body{
 
 
 
+/* navigation section */
+nav{
+    background-color: #FDD2BF;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo span{
+    color: #F54748;
+}
+.logo h1{
+    color: #343F56;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+nav li{
+    list-style: none;
+}
 /* Header section */
 .header-sec{
     padding: 0px 10%;
@@ -58,8 +85,8 @@ body{
 
 /* Contact section */
 .about-sec{
-    background-size: 100%;
-    height: 100%;
+    background-size: cover;
+    /* height: 100%; */
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     padding: 0px 10%;
@@ -134,4 +161,36 @@ body{
     text-align: center;
     margin: 0 10%;
     width: 20%;
+}
+
+/* Discover section */
+.discover-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(images/bg-intro-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin-bottom: 100px;
+    letter-spacing: 8px;
+}
+.discover-sec h3{
+    color: red;
+}
+.discover-sec h1{
+    color: white;
+    font-size: 40px;
+}
+
+/* footer section */
+footer{
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 30px 0px 100px 0;
 }
